@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://anupam-1068.github.io/vue-spa/",
+  "homepage": "https://anupam-1068.github.io/Vue-spa/",
 
   "scripts": {
     "serve": "vue-cli-service serve",
