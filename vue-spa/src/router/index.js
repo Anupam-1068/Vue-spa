@@ -5,13 +5,9 @@ import AboutPage from '../components/AboutUs.vue';
 import ContactPage from '../components/ContactUs.vue';
 
 const routes = [
+ 
   {
     path: '/',
-    name: 'MainPage',
-    component: MainPage,
-  },
-  {
-    path: '/vue-spa',
     name: 'MainPage',
     component: MainPage,
   },
@@ -33,7 +29,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/vue-spa/'),
   routes,
 });
 

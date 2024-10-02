@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <router-link to="/vue-spa/" class="navbar-brand">Fitness Gym</router-link>
+    <router-link to="/" class="navbar-brand">Fitness Gym</router-link>
     <div class="navbar-links">
       <router-link to="/about">About Us</router-link>
       <router-link to="/contact">Contact Us</router-link>
