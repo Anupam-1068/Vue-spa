@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://anupam-1068.github.io/Vue-spa/",
-
+  "homepage": "https://anupam-1068.github.io/vue-spa/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -23,7 +22,6 @@
     "@vue/tsconfig": "^0.5.1",
     "npm-run-all2": "^6.2.0",
     "typescript": "~5.4.0",
-    "vite": "^5.3.1",
     "vite-plugin-vue-devtools": "^7.3.1",
     "vue-tsc": "^2.0.21"
   }

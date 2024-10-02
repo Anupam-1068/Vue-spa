@@ -6,6 +6,11 @@ import ContactPage from '../components/ContactUs.vue';
 
 const routes = [
   {
+    path: '/',
+    name: 'MainPage',
+    component: MainPage,
+  },
+  {
     path: '/vue-spa',
     name: 'MainPage',
     component: MainPage,
