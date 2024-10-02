@@ -1,5 +1,5 @@
 // vue.config.js
 module.exports = {
-    publicPath: '/vue-spa/', // Set the base URL for the application
+    publicPath: '/Vue-spa/', // Set the base URL for the application
   };
   
