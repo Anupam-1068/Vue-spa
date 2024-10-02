@@ -28,14 +28,17 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
+          cache-dependency-path: vue-spa/package-lock.json
           node-version: '20'
           cache: 'npm'
 
       - name: Install dependencies
         run: npm install --prefer-offline
+        working-directory: vue-spa  # Set working directory to where package.json is located
 
       - name: Build
         run: npm run build  # Make sure this produces the expected static files
+        working-directory: vue-spa  # Set working directory to where package.json is located
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -43,7 +46,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './build'  # Ensure this is the correct output directory
+          path: './vue-spa/dist'  # Change this to the correct output directory
 
       - name: Deploy to GitHub Pages
         id: deployment
