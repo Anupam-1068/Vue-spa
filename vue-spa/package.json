@@ -4,19 +4,17 @@
   "private": true,
   "type": "module",
   "homepage": "https://anupam-1068.github.io/Vue-spa/",
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+"scripts": {
+    "dev": "vite",             
+    "build": "vite build",      
+    "serve": "vite preview"     
   },
   "dependencies": {
-    "vue": "^3.4.29",
-    "vue-router": "^4.4.5"
+    "vue": "^3.x.x",
+    "vue-router": "^4.x.x"     
   },
   "devDependencies": {
-    "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.14.5",
-    "@vue/cli-service": "^5.0.8",
-    "@vue/tsconfig": "^0.5.1"
+    "vite": "^4.x.x",           
+    "@vitejs/plugin-vue": "^4.x.x"  
   }
 }
