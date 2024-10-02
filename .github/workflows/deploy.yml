@@ -34,9 +34,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install --prefer-offline
+        working-directory: vue-spa  # Set working directory to where package.json is located
 
       - name: Build
         run: npm run build  # Make sure this produces the expected static files
+        working-directory: vue-spa  # Set working directory to where package.json is located
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
